@@ -1,0 +1,67 @@
+/* Modern Basic - Modernize by Estoque http://est0que.tistory.com */
+@charset "utf-8";
+
+/* 본문 공통 */
+
+body{
+		background-color:/*@background-color=*/#C4CDDC/*@*/;
+		background-image:/ /*@background-image=*/url("http://i1.daumcdn.net/cfs.tistory/v/0/blog/style/template/image/generic/2.jpg")/*@*/;
+		background-repeat: /*@background-image-repeat=*/no-repeat/*@*/;
+		background-position: /*@background-image-position=*/center top/*@*/;
+}
+/* wrapContainer */
+
+
+#container {
+  width:/*@post-width:290=*/920px/*@*/;
+}
+
+#content {
+	
+	width: 630px;
+}
+
+#content2 {
+	width:/*@post-width=*/630px/*@*/;
+}
+
+/* ***** Header ***** */
+#header .blogTitle		{
+	height: /*@title-height=*/109px/*@*/;
+	background-color:/*@title-background-color=*/transparent/*@*/;
+	background-image: /*@title-background-image=*/url("http://i1.daumcdn.net/cfs.tistory/v/0/blog/style/template/image/title/24.jpg")/*@*/;
+	background-repeat: /*@title-background-image-repeat=*/repeat/*@*/;
+	background-position: /*@title-background-image-position=*/right top/*@*/;
+
+}
+#header a              { /*@title-color=color:#000000;*/color: #fff;/*@*/ }
+#header h1             { padding-top:/*@title-height:-65=*/44px/*@*/;}
+
+#header h1 a           { font-family:/*@title-font-family=*/Helvetica Neue, Helvetica, Arial, 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, sans-serif/*@*/; 
+							font-size:/*@title-font-size=*/16px/*@*/; }
+
+/* ***** content ***** */
+#guestWrite textarea            { width:/*@post-width:-44=*/586px/*@*/;}
+#guestWrite .homepage           { width: /*@post-width:-180=*/450px/*@*/ !important; }
+
+#guestList ol li            { border:5px solid #eee; padding: 0 20px 10px;  margin-bottom:10px; width:/*@post-width:-50=*/580px/*@*/; overflow:hidden; }
+
+#guestList li ul li         { width:/*@post-width:-90=*/540px/*@*/;  }
+
+/* entry */
+
+.titleWrap h2 a          {
+  /*@post-title-color=color:#333;*/color: #333;/*@*/
+  /*@post-title-font-family=font-family:;*/font-family: Helvetica Neue, Helvetica, Arial, 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, sans-serif;/*@*/
+  font-size: /*@post-title-font-size=*/inherit/*@*/;
+}
+
+.article {
+  color:/*@post-body-color=color:#666666;*/ #666666;/*@*/
+  font-family:/*@post-body-font-family=font-family:;*/ Helvetica Neue, Helvetica, Arial, 맑은 고딕, malgun gothic, AppleGothicNeoSD, Apple SD 산돌고딕 Neo, sans-serif;/*@*/
+  font-size: /*@post-body-font-size=*/inherit/*@*/;
+}
+
+
+
+
